@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
     public void button1_Click(View view) {
-        Toast toast = Toast.makeText(getApplicationContext(),"Button 1 clicked",5000);
+        Toast toast = Toast.makeText(getApplicationContext(),"Düzgün Tutar",10000);
         toast.show();
     }
     public void button2_Click(View view) {
