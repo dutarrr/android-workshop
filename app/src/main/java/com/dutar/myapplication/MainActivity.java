@@ -1,5 +1,6 @@
 package com.dutar.myapplication;
 
+import android.content.Intent;
 import android.os.Bundle;
 
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
@@ -25,5 +26,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void openToastMessageScreen(View view){
         System.out.println("Hello world");
+        Intent intent = new Intent(this, ToastMessageActivity.class);
+        startActivity(intent);
     }
 }
