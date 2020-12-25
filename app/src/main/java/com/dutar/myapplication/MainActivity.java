@@ -22,12 +22,8 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
     }
-    public void button1_Click(View view) {
-        Toast toast = Toast.makeText(getApplicationContext(),"Düzgün Tutar",10000);
-        toast.show();
-    }
-    public void button2_Click(View view) {
-        Toast toast = Toast.makeText(getApplicationContext(),"Button 2 clicked",5000);
-        toast.show();
+
+    public void openToastMessageScreen(View view){
+        System.out.println("Hello world");
     }
 }
