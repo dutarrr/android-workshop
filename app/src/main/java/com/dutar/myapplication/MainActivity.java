@@ -9,6 +9,7 @@ import com.google.android.material.snackbar.Snackbar;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 
+import android.view.Gravity;
 import android.view.View;
 
 import android.view.Menu;
@@ -25,8 +26,12 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void openToastMessageScreen(View view){
-        System.out.println("Hello world");
         Intent intent = new Intent(this, ToastMessageActivity.class);
+        startActivity(intent);
+    }
+
+    public void openConstraintLayout(View view){
+        Intent intent = new Intent(this, ConstraintLayoutActivity.class);
         startActivity(intent);
     }
 }

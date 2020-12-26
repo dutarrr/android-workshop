@@ -1,6 +1,7 @@
 package com.dutar.myapplication;
 
 import android.os.Bundle;
+import android.view.Gravity;
 import android.view.View;
 import android.widget.Toast;
 
@@ -15,11 +16,13 @@ public class ToastMessageActivity extends AppCompatActivity {
     }
 
     public void button1_Click(View view) {
-        Toast toast = Toast.makeText(getApplicationContext(),"Merhaba Düzgün",1000);
+        Toast toast = Toast.makeText(getApplicationContext(),"Hello World",Toast.LENGTH_LONG);
+        toast.setGravity(Gravity.CENTER, 0, 0);
         toast.show();
     }
     public void button2_Click(View view) {
-        Toast toast = Toast.makeText(getApplicationContext(),"Merhaba Murat",1000);
+        Toast toast = Toast.makeText(getApplicationContext(),"Hello World",Toast.LENGTH_LONG);
+        toast.setGravity(Gravity.CENTER, 0, 0);
         toast.show();
     }
 }

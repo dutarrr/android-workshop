@@ -20,6 +20,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".ToastMessageActivity"></activity>
+        <activity android:name=".ConstraintLayoutActivity"></activity>
     </application>
 
 </manifest>
