@@ -42,4 +42,10 @@ public class SharedPreferencesActivity extends AppCompatActivity {
         textView.setText("Adınız: " + name);
     }
 
+    public void button3_Click(View view) {
+        sharedPreferences.edit().remove("name").apply();
+        Toast toast= Toast.makeText(getApplicationContext(),"isim silindi. Default Değer :Düzgün",Toast.LENGTH_SHORT);
+        toast.show();
+    }
+
 }
