@@ -9,6 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApplication">
+        <activity android:name=".TimerActivity"></activity>
         <activity
             android:name=".MainActivity"
             android:label="@string/app_name"
@@ -19,10 +20,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".ToastMessageActivity"></activity>
-        <activity android:name=".ConstraintLayoutActivity"></activity>
-        <activity android:name=".SharedPreferencesActivity"></activity>
-        <activity android:name=".AlertDialogActivity"></activity>
+        <activity android:name=".ToastMessageActivity" />
+        <activity android:name=".ConstraintLayoutActivity" />
+        <activity android:name=".SharedPreferencesActivity" />
+        <activity android:name=".AlertDialogActivity" />
     </application>
 
 </manifest>

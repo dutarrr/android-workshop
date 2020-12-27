@@ -44,4 +44,9 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, AlertDialogActivity.class);
         startActivity(intent);
     }
+
+    public void openTimerScreen(View view){
+        Intent intent = new Intent(this,TimerActivity.class);
+        startActivity(intent);
+    }
 }
