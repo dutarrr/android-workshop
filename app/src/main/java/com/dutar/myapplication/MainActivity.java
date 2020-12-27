@@ -34,4 +34,9 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, ConstraintLayoutActivity.class);
         startActivity(intent);
     }
+
+    public void SharedPreferencesActivity(View view){
+        Intent intent = new Intent(this, SharedPreferencesActivity.class);
+        startActivity(intent);
+    }
 }

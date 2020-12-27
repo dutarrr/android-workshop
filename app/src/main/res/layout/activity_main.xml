@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical">
@@ -9,9 +10,18 @@
         android:layout_height="wrap_content"
         android:onClick="openToastMessageScreen"
         android:text="Toast Message" />
+
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="ConstaintLayout"
-        android:onClick="openConstraintLayout"/>
+        android:backgroundTint="@android:color/holo_green_light"
+        android:onClick="openConstraintLayout"
+        android:text="ConstaintLayout" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@android:color/holo_orange_light"
+        android:onClick="SharedPreferencesActivity"
+        android:text="SharedPreferences" />
 </LinearLayout>
