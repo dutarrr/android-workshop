@@ -49,4 +49,9 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this,TimerActivity.class);
         startActivity(intent);
     }
+
+    public void openRunnable(View view){
+        Intent intent = new Intent(getApplicationContext(),RunnableActivity.class);
+        startActivity(intent);
+    }
 }

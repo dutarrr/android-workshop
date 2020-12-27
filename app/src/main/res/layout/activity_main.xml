@@ -38,4 +38,11 @@
         android:backgroundTint="@android:color/darker_gray"
         android:onClick="openTimerScreen"
         android:text="Timer" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@android:color/holo_green_dark"
+        android:onClick="openRunnable"
+        android:text="Runnable" />
 </LinearLayout>
