@@ -39,4 +39,9 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, SharedPreferencesActivity.class);
         startActivity(intent);
     }
+
+    public void openAlertDialog(View view){
+        Intent intent = new Intent(this, AlertDialogActivity.class);
+        startActivity(intent);
+    }
 }

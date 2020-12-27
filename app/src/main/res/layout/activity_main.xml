@@ -24,4 +24,12 @@
         android:backgroundTint="@android:color/holo_orange_light"
         android:onClick="SharedPreferencesActivity"
         android:text="SharedPreferences" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@android:color/holo_red_dark"
+        android:onClick="openAlertDialog"
+        android:text="Alert Dialog" />
 </LinearLayout>
