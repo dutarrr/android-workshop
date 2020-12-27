@@ -32,5 +32,6 @@ public class AlertDialogActivity extends AppCompatActivity {
                 Toast.makeText(AlertDialogActivity.this,"Hayır'a tıklandı",Toast.LENGTH_LONG).show();
             }
         });
+        alert.show();
     }
 }
