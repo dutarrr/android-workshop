@@ -45,4 +45,12 @@
         android:backgroundTint="@android:color/holo_green_dark"
         android:onClick="openRunnable"
         android:text="Runnable" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@android:color/holo_purple"
+        android:onClick="openListview"
+        android:text="Listview" />
 </LinearLayout>

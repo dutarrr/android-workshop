@@ -25,33 +25,39 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
-    public void openToastMessageScreen(View view){
+    public void openToastMessageScreen(View view) {
         Intent intent = new Intent(this, ToastMessageActivity.class);
         startActivity(intent);
     }
 
-    public void openConstraintLayout(View view){
+    public void openConstraintLayout(View view) {
         Intent intent = new Intent(this, ConstraintLayoutActivity.class);
         startActivity(intent);
     }
 
-    public void SharedPreferencesActivity(View view){
+    public void SharedPreferencesActivity(View view) {
         Intent intent = new Intent(this, SharedPreferencesActivity.class);
         startActivity(intent);
     }
 
-    public void openAlertDialog(View view){
+    public void openAlertDialog(View view) {
         Intent intent = new Intent(this, AlertDialogActivity.class);
         startActivity(intent);
     }
 
-    public void openTimerScreen(View view){
-        Intent intent = new Intent(this,TimerActivity.class);
+    public void openTimerScreen(View view) {
+        Intent intent = new Intent(this, TimerActivity.class);
         startActivity(intent);
     }
 
-    public void openRunnable(View view){
-        Intent intent = new Intent(getApplicationContext(),RunnableActivity.class);
+    public void openRunnable(View view) {
+        Intent intent = new Intent(getApplicationContext(), RunnableActivity.class);
         startActivity(intent);
     }
+
+    public void openListview(View view) {
+        Intent intent = new Intent(getApplicationContext(),ListviewActivity.class);
+        startActivity(intent);
+    }
+
 }
