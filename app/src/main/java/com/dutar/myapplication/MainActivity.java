@@ -40,7 +40,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     public boolean onOptionsItemSelected(@NonNull MenuItem item) {
         if (item.getItemId() == R.id.menuItemAddProduct) {
-            Intent intent = new Intent(MainActivity.this,AddProductActivity.class);
+            Intent intent = new Intent(MainActivity.this, AddProductActivity.class);
             startActivity(intent);
         }
         return super.onOptionsItemSelected(item);
@@ -78,6 +78,11 @@ public class MainActivity extends AppCompatActivity {
 
     public void openListview(View view) {
         Intent intent = new Intent(getApplicationContext(), ListviewActivity.class);
+        startActivity(intent);
+    }
+
+    public void openImageFromGallery(View view) {
+        Intent intent = new Intent(MainActivity.this, UploadImageActivity.class);
         startActivity(intent);
     }
 
